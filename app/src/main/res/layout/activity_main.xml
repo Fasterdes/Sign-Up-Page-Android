@@ -80,12 +80,13 @@
 
     <ImageView
         android:id="@+id/bantengjpg"
-        android:layout_width="80pt"
-        android:layout_height="80pt"
-        android:layout_marginBottom="36dp"
-        android:src="@drawable/banteng"
+        android:layout_width="match_parent"
+        android:layout_height="100pt"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/caldera1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
